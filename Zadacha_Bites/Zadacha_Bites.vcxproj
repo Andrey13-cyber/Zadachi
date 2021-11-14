@@ -140,7 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bites.cpp" />
+    <ClCompile Include="Stacks.cpp" />
     <ClCompile Include="zad_stack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stacks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
